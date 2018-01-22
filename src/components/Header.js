@@ -1,11 +1,11 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import Nav from './Nav'
 
 const Header = () => (
-  <header>
-    <a href="/">Home</a>
-    <a href="/">Plane</a>
-  </header>
+    <header>
+        <img src="https://www.educol.net/image-avion-dm10494.jpg" alt="plane" />
+        <Nav />
+    </header>
 )
 
 export default Header
