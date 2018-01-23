@@ -1,9 +1,9 @@
 import React from 'react'
 import Nav from './Nav'
+import { header } from '../styles/style'
 
 const Header = () => (
-    <header>
-        <img src="https://www.educol.net/image-avion-dm10494.jpg" alt="plane" />
+    <header style={header}>
         <Nav />
     </header>
 )
