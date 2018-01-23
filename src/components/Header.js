@@ -1,9 +1,15 @@
 import React from 'react'
 import Nav from './Nav'
-import { header } from '../styles/style'
+import img from './images'
 
 const Header = () => (
-    <header style={header}>
+    <header>
+        <div>
+            <img src={img.logo} alt="logo" />
+            <span>
+                Kitch<span class="y">y</span>Knivy
+            </span>
+        </div>
         <Nav />
     </header>
 )

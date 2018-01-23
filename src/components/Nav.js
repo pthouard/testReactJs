@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 class Nav extends React.Component {
     render() {
-        const pages = ['Home', 'Knives']
+        const pages = ['Home', 'Gallery']
         const links = pages.map(page => {
             return (
                 <Link to={'/' + page} key={page}>

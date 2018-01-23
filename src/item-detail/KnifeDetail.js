@@ -3,12 +3,14 @@ import React from 'react'
 class KnifeDetail extends React.Component {
     render() {
         return (
-            <div>
-                <h1>{this.props.knife.name}</h1>
-                <img src={this.props.knife.img} alt={this.props.knife.name} />
+            <div class="item">
+                <h1>
+                    Everything about <span>{this.props.knife.name}</span>
+                </h1>
                 <p>{this.props.knife.description}</p>
+                <img src={this.props.knife.img} alt={this.props.knife.name} />
                 <p>Size : {this.props.knife.size}</p>
-                <div>
+                <div class="technical">
                     <img src={this.props.knife.imageGrip} alt="" />
                     <p>{this.props.knife.grip}</p>
                 </div>

@@ -5,6 +5,7 @@ import santoku from '../img/santoku-knife.jpg'
 import steak from '../img/steak-knife.jpg'
 import chefGrip from '../img/chef-knife-grip.jpg'
 import knifeSet from '../img/knife-set-home.jpg'
+import logo from '../img/logo.png'
 
 export default {
     boning,
@@ -14,4 +15,5 @@ export default {
     steak,
     chefGrip,
     knifeSet,
+    logo,
 }
