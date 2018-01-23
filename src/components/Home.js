@@ -5,13 +5,13 @@ import img from './images'
 class Home extends React.Component {
     render() {
         return (
-            <div class="home">
+            <div className="home">
                 <Layout>
                     <hr />
-                    <div class="home">
+                    <div className="home">
                         <h1>
-                            Kitch<span class="y">y</span>Knivy. The 1st Kitchen
-                            Knives Guide.
+                            Kitch<span className="y">y</span>Knivy. The 1st
+                            Kitchen Knives Guide.
                         </h1>
                         <img src={img.knifeSet} alt="kitchen knife set" />
                     </div>

@@ -7,7 +7,7 @@ class Knives extends React.Component {
     render() {
         return (
             <Layout>
-                <div class="gallery">
+                <div className="gallery">
                     <h1>Kitchen knives guide</h1>
                     <KnivesList knives={data} />
                 </div>

@@ -7,7 +7,7 @@ const Header = () => (
         <div>
             <img src={img.logo} alt="logo" />
             <span>
-                Kitch<span class="y">y</span>Knivy
+                Kitch<span className="y">y</span>Knivy
             </span>
         </div>
         <Nav />
